@@ -164,36 +164,36 @@ var gradebook = {
 
 // __________________________________________
 // Reflect
-What parts of your strategy worked? What problems did you face?
+// What parts of your strategy worked? What problems did you face?
 
-Well, when writing the first function, I ran into very little problems.
-My problems came when I tried doing the gradebook. I ran into a lot
-of syntax errors from not programming in javascript in awhile.
+// Well, when writing the first function, I ran into very little problems.
+// My problems came when I tried doing the gradebook. I ran into a lot
+// of syntax errors from not programming in javascript in awhile.
 
-What questions did you have while coding? What resources did you find to help you answer them?
+// What questions did you have while coding? What resources did you find to help you answer them?
 
-I had some syntax questions. I referred to my notes and previous challenges.
+// I had some syntax questions. I referred to my notes and previous challenges.
 
-What concepts are you having trouble with, or did you just figure something out? If so, what?
+// What concepts are you having trouble with, or did you just figure something out? If so, what?
 
-I wasn't really having any problems with concepts. Just needed 
-to refresh my memory. 
+// I wasn't really having any problems with concepts. Just needed 
+// to refresh my memory. 
 
-Did you learn any new skills or tricks?
+// Did you learn any new skills or tricks?
 
-Not really. Just got some great practice. 
+// Not really. Just got some great practice. 
 
-How confident are you with each of the Learning Competencies?
+// How confident are you with each of the Learning Competencies?
 
-I am very confident. Really felt like I knew what was going on. 
+// I am very confident. Really felt like I knew what was going on. 
 
-Which parts of the challenge did you enjoy?
+// Which parts of the challenge did you enjoy?
 
-Everything.
+// Everything.
 
-Which parts of the challenge did you find tedious?
+// Which parts of the challenge did you find tedious?
 
-Nothing. 
+// Nothing. 
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.

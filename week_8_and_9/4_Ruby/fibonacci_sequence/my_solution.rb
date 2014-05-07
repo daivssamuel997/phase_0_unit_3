@@ -18,7 +18,9 @@ def is_fibonacci?(num)
     # Base case
     return true if num == 0 || num == 1
     
-    num == (is_fibonacci?(num - 1) + is_fibonacci?(num - 2)) ? true : false
+    (num == (is_fibonacci?(num - 1) + is_fibonacci?(num - 2))) ? true : false
+    
+    #true/false ? add add here : do falsey thing here
 end
 =end
 
@@ -27,6 +29,8 @@ end
 def is_fibonacci?(num)
     
     fib_array = [0, 1]
+    
+    return true if num == 0 || num == 1
     
     while num > fib_array.last do # Runs until the num has been checked throughout the seq
         
@@ -48,7 +52,7 @@ def random_fibonacci
 end
 
 def assert
-    return "Assertion Failed!" unless yield
+    raise "Assertion Failed!" unless yield
 end
 
 puts is_fibonacci?(5)
@@ -92,4 +96,4 @@ assert { is_fibonacci?(927372692193078999171) == false }
 
 #Which parts of the challenge did you find tedious?
 
-# Nothing. 
+# Nothing.

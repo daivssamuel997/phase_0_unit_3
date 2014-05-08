@@ -11,10 +11,10 @@ Define the following commands and describe how they work/what they do.
 #### checkout - serves as a guide. It updates files to get you where you want to be.
 
 
-#### clone - 
+#### clone - copies a repo into a new repo. We used this to clone the DBC repo to our computer.
 
 
-#### commit - clones a repo into a new repo. We used this to clone the DBC repo to our computer.
+#### commit - records changes so you know what you have done.
 
 #### fetch - helps you find heads or tags that you need in a repo.
 

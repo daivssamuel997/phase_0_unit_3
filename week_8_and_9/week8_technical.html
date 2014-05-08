@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>
+			Exploring Your Values
+		</title>
+	<link rel="stylesheet" href="p0_gps1.1.css">
+
+	<style>
+		*{
+			background-color: silver;
+		}
+		h1{
+				color: black;
+				font-style: italic;
+				text-align: center;
+				padding-top: 50px;
+				padding-bottom: 75px;
+			}
+		#par{
+				text-align: center;
+				color: blue;
+				font-style: italic;
+				padding-left: 300px;
+				padding-right:  300px;
+			}
+			p{
+				background-color: white;
+			}
+	</style>
+
+	<body>
+		<dir id="par">
+			<h1>Recursion</h1>
+
+			<p>
+				 Recursion is something that basically saves several lines of code. Instead of iterating through block after block of code, recursion allows you call itself(the function) over again. By having a base case, or a case where you will exit the function, you save rescue yourself from an infinite loop. The argument that you are sending the function in the recursive call is typically decreased or incremented in the direction of your base case so you can avoid infinite loops. Recursive functions are usually utilized when you are writing a mathmatical functions, as it really is cleaner and more concise. <br></br>
+
+				 Here is some simple code in C to help you see the point that is being made:<br></br>
+			</p>
+
+			<p>
+
+				 Here is an Iterative method to add the numbers from 1 to 10 together.<br></br>
+
+				 int addNumbers(num) { <br></br>
+
+				 	int i, sum = 0; <br></br>
+
+				 	for (i = 1; i <= num; i++)<br></br>
+				 		sum += num;<br></br>
+
+				 	return sum;
+				}
+			</p>
+
+			<p>
+				 Now the Recursive way:<br></br>
+
+				 int addNumbers(num) { <br></br>
+	
+				 	// Base case<br></br>
+				 	if num < 1<br></br>
+				 	
+				 	return num + addNumbers(num - 1);
+				}<br></br>
+
+				In this case, it will still return the number 55 (1+2+3+4+5+6+7+8+9+10). It is awesome to see how you can write the same code in much fewer lines.<br></br>
+			</p>
+				
+		</dir>
+	</body>
+</html>

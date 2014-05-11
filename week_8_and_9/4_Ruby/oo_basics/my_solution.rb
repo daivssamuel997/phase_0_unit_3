@@ -6,7 +6,9 @@
 # 2. Pseudocode
 #1. Since the class is already defined, as well as the attr_accessor, I need to create an initialize method.
 #2. Initialize will take two arguments, a name and an array of grades.
-#3.
+#3. Average will sum up the scores from the array of each person, and divide the sum by the total amount of scores.
+#4. letter_grade will check itself's average to see what letter to return.
+#5. linear search will go through all of the names in the array and while it is doing this, it will check to see if the name matches the name we are searching for. If it does, we will return the index of the name. Otherwise, we will return -1. 
 
 
 # 3. Initial Solution

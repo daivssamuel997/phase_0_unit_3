@@ -9,6 +9,9 @@
 
 # 3. Initial Solution
 
+def num_to_words(num)
+    
+end
 
 
 
@@ -20,6 +23,9 @@
 
 
 # 1. DRIVER TESTS/ASSERT STATEMENTS GO BELOW THIS LINE
+def assert
+    raise "Assertion failed!" unless yield
+end
 
 
 

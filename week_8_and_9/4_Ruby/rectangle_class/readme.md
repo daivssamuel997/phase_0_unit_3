@@ -1,4 +1,4 @@
-[Week 8 and 9 Home](../../)
+ [Week 8 and 9 Home](../../)
 
 #U3.W8-9: Implement a Rectangle Class
 
